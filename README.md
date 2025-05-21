@@ -65,3 +65,43 @@ land-registry-blockchain/
 ├── README.md
 └── truffle-config.js
 ```
+⚙️ Setup Instructions
+🧰 Prerequisites
+Node.js
+Truffle – npm install -g truffle
+Ganache
+MetaMask browser extension
+## 🛠️ Installation
+Clone the repository and install dependencies:
+```text
+git clone https://github.com/yourusername/land-registry-blockchain.git
+cd land-registry-blockchain
+npm install
+truffle compile
+truffle migrate --network development
+```
+## ▶️ Running the App
+Open Ganache and ensure Truffle is using the correct RPC and network ID.
+Compile and deploy the contracts:
+```text
+truffle compile
+truffle migrate --reset
+```
+Open index.html in your browser.
+Connect MetaMask to your local Ganache blockchain.
+Start interacting with the system via the UI.
+
+## 💻 Technologies Used
+Solidity – Smart contract programming
+Truffle – Development framework for Ethereum
+Ganache – Local Ethereum blockchain
+Web3.js – JavaScript interface for Ethereum
+MetaMask – Wallet and Ethereum provider
+HTML/CSS – Frontend structure and styling
+
+## 🛡️ Security Notes
+Only use on testnets before considering mainnet deployment.
+Avoid storing sensitive or personal data on-chain.
+Validate user input both in the frontend and smart contract.
+
+
