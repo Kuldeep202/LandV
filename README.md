@@ -1,5 +1,5 @@
-# 🏡 LandChain – Blockchain-based Land Registry Verification System
-LandChain is a decentralized application (dApp) that uses blockchain technology to securely manage land ownership records. Built on Ethereum using Solidity smart contracts, it eliminates the risks of forgery, corruption, and manual error in traditional land registry systems by offering a tamper-proof, transparent, and automated solution.
+# 🏡 LandV – Blockchain-based Land Registry Verification System
+LandV is a decentralized application (dApp) that uses blockchain technology to securely manage land ownership records. Built on Ethereum using Solidity smart contracts, it eliminates the risks of forgery, corruption, and manual error in traditional land registry systems by offering a tamper-proof, transparent, and automated solution.
 
 # 🔍 Key Highlights:
 ✅ Tamper-Proof Records: All user and land asset data is stored on the blockchain, ensuring it cannot be altered or deleted once registered.
