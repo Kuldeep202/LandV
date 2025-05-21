@@ -1,6 +1,6 @@
-# 🏡 Land Registry using Blockchain
+# 🏡 Land Registry Using Blockchain
 
-This project is a decentralized **Land Registration System** developed using **Ethereum Smart Contracts** written in Solidity. It ensures tamper-proof registration of users, land assets, and ownership mappings using blockchain technology.
+A decentralized application (DApp) designed to digitize and secure land registration, ownership, and asset transfer using the power of **Ethereum Blockchain**. This project leverages **Solidity** smart contracts to ensure immutability and transparency, eliminating fraud, corruption, and manipulation in traditional land records.
 
 The frontend is built using **HTML/CSS** and interacts with the smart contract through **Web3.js** and **MetaMask** for secure, decentralized operations.
 
@@ -17,22 +17,31 @@ The frontend is built using **HTML/CSS** and interacts with the smart contract t
 
 ---
 
+## 📖 Problem Statement
+
+Land disputes and fraud are common due to centralized, paper-based land records. This system provides a **decentralized, transparent, and verifiable** method for land registration using blockchain — ensuring:
+- Tamper-proof records
+- Secure user and asset management
+- Transparent historical ownership
+
+---
+
 ## 🧱 Smart Contracts
 
-### 📁 `Structregistry.sol`
-This is the core smart contract managing:
+### 📁 Structregistry.sol
 
-- `add_user()`: Adds a user with name, phone, and ID
+This smart contract includes:
+- `add_user()`: Registers a user with name, phone, and ID
 - `get_user()`: Retrieves user details
-- `add_asset()`: Adds land asset info
-- `get_asset()`: Fetches asset details
-- `add_khatiyan()`: Records ownership of land plots
-- `get_khatiyan()`: Returns owners for a given plot
-- `get_array()`: Retrieves all asset data
-- `remove_user()`: Removes user with payable condition
+- `add_asset()`: Adds land asset details
+- `add_ownership()`: Maps ownership to plots
+- `get_ownership()`: Retrieves ownership history
+- `remove_user()`: Allows user removal with payable feature
+- `get_array()`: Fetches all land assets
 
-### 📁 `Migrations.sol`
-Default contract for managing Truffle migrations.
+### 📁 Migrations.sol
+
+Truffle-specific file for managing the contract deployment process.
 
 ---
 
@@ -51,6 +60,21 @@ land-registry-blockchain/
 │   └── Structregistry.json
 ├── css/
 │   └── style.css
-├── index.html
 ├── README.md
 └── truffle-config.js
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Install Truffle
+
+```bash
+npm install -g truffle
+truffle version
+## 2️⃣ Install Ganache
+
+```bash
+npm install -g ganache-cli
+ganache-cli
+
