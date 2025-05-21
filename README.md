@@ -46,11 +46,9 @@ function get_array() public view returns (...) { ... }
 // Removes user (with payable condition)
 function remove_user(string memory id) public payable { ... }
 
----
-🗂️ Project Structure
-pgsql
-Copy
-Edit
+## 🗂️ Project Structure
+
+```text
 land-registry-blockchain/
 ├── contracts/
 │   ├── Migrations.sol
