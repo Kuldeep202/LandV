@@ -95,18 +95,18 @@ truffle migrate --reset
 Open index.html in your browser.
 Connect MetaMask to your local Ganache blockchain.
 Start interacting with the system via the UI.
----
-# 💻 Technologies Used
+
+## 💻 Technologies Used
 Solidity – Smart contract programming
 Truffle – Development framework for Ethereum
 Ganache – Local Ethereum blockchain
 Web3.js – JavaScript interface for Ethereum
 MetaMask – Wallet and Ethereum provider
 HTML/CSS – Frontend structure and styling
----
-# 🛡️ Security Notes
+
+## 🛡️ Security Notes
 Only use on testnets before considering mainnet deployment.
 Avoid storing sensitive or personal data on-chain.
 Validate user input both in the frontend and smart contract.
----
+
 
