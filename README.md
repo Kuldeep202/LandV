@@ -8,7 +8,7 @@ A decentralized **Land Registration and Verification System** built on the **Eth
 
 - 🔐 **User Registration** with identity verification (name, phone, ID)
 - 🏞️ **Land Asset Registration** with plot number, area, and valuation
-- 📘 **Khatiyan Ownership Mapping** for plot-wise ownership tracking
+- 📘 **Ownership Mapping** for plot-wise ownership tracking
 - 🔎 **Data Retrieval** for users, land assets, and ownership records
 - ❌ **User Removal** (with optional payable functionality)
 - 🖼️ **Interactive Frontend** styled with custom CSS
@@ -45,3 +45,24 @@ function get_array() public view returns (...) { ... }
 
 // Removes user (with payable condition)
 function remove_user(string memory id) public payable { ... }
+
+---
+🗂️ Project Structure
+pgsql
+Copy
+Edit
+land-registry-blockchain/
+├── contracts/
+│   ├── Migrations.sol
+│   └── Structregistry.sol
+├── migrations/
+│   ├── 1_initial_migration.js
+│   └── 2_initial_migration.js
+├── build/contracts/
+│   ├── Migrations.json
+│   └── Structregistry.json
+├── css/
+│   └── style.css
+├── index.html
+├── README.md
+└── truffle-config.js
