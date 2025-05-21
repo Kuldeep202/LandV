@@ -45,7 +45,7 @@ function get_array() public view returns (...) { ... }
 
 // Removes user (with payable condition)
 function remove_user(string memory id) public payable { ... }
-
+```
 ## 🗂️ Project Structure
 
 ```text
@@ -64,3 +64,4 @@ land-registry-blockchain/
 ├── index.html
 ├── README.md
 └── truffle-config.js
+```
